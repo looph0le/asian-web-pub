@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
   <meta charset="utf-8">
   <title>Asian Business - Web Designing Agency </title>
@@ -13,7 +13,7 @@
   <meta property="og:description" content="We are your All Stack developers" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.asianbusiness.co.in" />
-  <meta property="og:image" content="https://www.asianbusiness.co.in/assets/pic2-new.jpg" />
+  <meta property="og:image" content="https://www.asianbusiness.co.in/assets/mainpic.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="675" />
 
@@ -21,39 +21,6 @@
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-  .typewriter {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .10em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .0em; /* Adjust as needed */
-  animation: 
-    typing 2s steps(40, end),
-    blink-caret .75s step-end infinite;
-    animation-delay: 3s;
-  }
-
-/* The typing effect */
-  @keyframes typing {
-  from { width: 10% }
-  to { width: 100% }
-  }
-
-/* The typewriter cursor effect */
-  @keyframes blink-caret {
-  from, to { border-color: transparent }
-  30% { border-color: orange; }
-  }
-
-  #preloader {
-    background: #000 url(assets/loader.gif) no-repeat center center;
-    background-size: 50%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 90;
-
-  }
   </style>
   <script>
   tailwind.config = {
@@ -72,10 +39,4 @@
   <app-root></app-root>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
-<script>
-  var loader = document.getElementById("preloader");
-  window.addEventListener("load", function(){
-      loader.style.display = "none";
-    })
-</script>
 </html>
